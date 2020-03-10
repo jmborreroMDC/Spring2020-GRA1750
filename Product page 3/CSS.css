@@ -1,0 +1,218 @@
+body {
+	margin: 0;
+	width: 1920px;
+	background-color: #FBFEFF;
+	overflow-x: hidden;
+}
+
+#header {
+	display: block;
+	height: 70px;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background-color: #fff;
+	box-shadow: 0 2px 10px #A3A3A3;
+	z-index: 3;
+}
+
+#logo {
+	padding-left: 300px;
+	padding-right: 460px;
+}
+
+#logo img {
+	height: 60px
+}
+
+.headtext {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#header table tr td {
+	font-family: gill sans mt, arial, sans-serif;
+	font-size: 1em;
+	font-kerning: auto;
+	font-weight: bold;
+}
+
+#header a {
+	text-decoration: none;
+	color: #000;
+}
+
+#header a:hover {
+	color: #D9DBF1;
+	transition: color 1s;
+}
+
+#landing {
+	position: relative;
+	left: -10px;
+	top: 60px;
+	height: 1100px;
+	width: 100%;
+	z-index: -1;
+}
+
+#landing img {
+	margin: 0 auto;
+	width: 90%
+}
+
+#organic {
+	width: 700px;
+
+	position: absolute;
+	top: 25%;
+	left: 25%;
+	transform: translate(-50%, -50%);
+
+	font-family: helvetica, century gothic, sans-serif;
+	font-size: 5em;
+	font-weight: bold;
+	font-style: oblique;
+	color: #fff;
+	text-align: center;
+
+	transform: rotate(-5deg);
+}
+
+#SeconddivL {
+	position: absolute; top: 1000px; left: 194.5px;
+	z-index: -1;
+}
+#SeconddivR {
+	position: relative; top: -100.5px; left: 845.5px;
+	z-index: -1;
+}
+
+#SecondtabL {
+	width: 650px;
+	height: 760px;
+}
+
+#SecondtabR {
+	width: 650px;
+	height: 760px;
+}
+
+#SecondtabR img{
+	width: 100%;
+	display: block;
+}
+
+#SecondtabL img{
+	width: 100%;
+	display: block;
+}
+
+#spacer {
+	height: 500px;
+	background: url('imgs/spacer.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative; top: -80px;
+	margin: 0 auto;
+	z-index: -1;
+}
+
+#productdiv {
+	display: block;
+	width: 1300px;
+	position: relative;
+	top: -50px;
+	margin: 0px 0px 0px 195px;
+	z-index: -1;
+}
+
+#productdiv tr td img {
+	display: block;
+	width: 800px;
+}
+
+#productdiv h1 {
+	font-family:  helvetica, century gothic, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	color: #fff
+}
+
+#productdiv p {
+	font-family:  helvetica, century gothic, sans-serif;
+	text-align: center;
+	font-size: 1.1em;
+	color: #fff
+}
+
+#productdiv table td{
+	height: 355px;
+}
+
+.productext {
+	width: 500px;
+	height: 400px;
+	background-color: #212b2f;
+
+}
+
+#links {
+	z-index: 2;
+	position: relative;
+	top: -800px;
+}
+#links a {
+	font-family:  helvetica, century gothic, sans-serif;
+	text-align: center;
+	font-size: 1.1em;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+	display: block;
+}
+
+#links a:hover {
+	color: #98969D;
+}
+
+#buy1 {
+	position: relative;
+	top: -425px;
+	left: 290px;
+}
+
+#buy2 {
+	position: relative;
+	top: -95px;
+	left: -515px;
+}
+
+#buy3 {
+	position: relative;
+	top: 240px;
+	left: 290px;
+
+}
+
+#buy4 {
+	position: relative;
+	top: 575px;
+	left: -515px;
+
+}
+
+#footer {
+	margin: 0;
+	width: 1700px;
+	display: block;
+	background-color: #212a2f;
+}
+
+#footer img {
+	display: block;
+	margin: 0 auto;
+	width: 30%
+}
